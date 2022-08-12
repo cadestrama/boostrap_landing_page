@@ -1,0 +1,38 @@
+body::before{
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+    border-radius:10px;
+
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
